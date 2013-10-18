@@ -9,7 +9,7 @@ class Test_Fraccion < Test::Unit::TestCase
     assert_equal "16/9" ,(Racional.new(8,18) + Racional.new(12,9)).to_s
    end
 
-   def test_2
+   def test_2_failure
     assert_equal "-8/9",(Racional.new(8,18) - Racional.new(12,9)).to_s
    end
 

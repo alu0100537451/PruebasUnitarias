@@ -1,0 +1,22 @@
+¿Cuál es el error en el código del método para calcular el máximo común divisor?
+         	 while == 0(incorrecto)
+                 while != 0(correcto)        
+  
+ 2.2.) ¿Qué comandos del depurador utilizó para detectarlo? Describa la sesión de depuración.
+
+He utilizado los comandos siguientes para detectar el error en el código:
+
+l  Lo utilice para listar el código.
+
+b  Añadir un breakpoint
+
+c  Para ir desde un breakpoint al siguiente
+
+n  Con este comando avanzas línea.
+
+s  Avanzar línea entrando al método
+
+Ejectuamos el programa utilizando el debugger de Ruby,empezamos listando el contenido del codigo con el comando l,movimiendome línea a línea,hasta encotrar el error.Modificando el código y comprobando que ya funcionaba.
+
+2.3.) Escriba la dirección 'HTTP' del repositorio que contiene el desarrollo de su práctica.
+        https://github.com/alu0100537451/prct05.git
